@@ -1,6 +1,6 @@
 const express = require("express");
 const http = require("http");
-const env = require("./env");
+const env = require("./env/env");
 
 // MOCKUP DATA
 const mockup = require("./mockup-data");

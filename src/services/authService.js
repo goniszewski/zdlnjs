@@ -43,7 +43,7 @@ module.exports = ({ app, env, usersService }) => {
   const loginUser = async (email, password) => {
     const user = await usersService.getUser(email);
 
-    if (!user) return env.responses.USER_DONT_EXISTS;
+    if (!user) return env.responses.USER_DOESNT_EXISTS;
 
     const match = await passMatch(password, user.password);
 

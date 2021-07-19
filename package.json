@@ -1,6 +1,6 @@
 {
   "name": "zdlnjs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "src/index.js",
   "repository": "https://github.com/goniszewski/zdlnjs.git",
   "author": "Robert Goniszewski <robertgoniszewski@outlook.com>",
@@ -13,6 +13,7 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jest": "^27.0.6",
     "jsonwebtoken": "^8.5.1",

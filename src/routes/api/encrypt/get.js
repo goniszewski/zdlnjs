@@ -17,6 +17,6 @@ module.exports = ({ router, usersService, encryptionService }) => {
 
     const payload = await encryptionService.getAndEncode({ publicKey, url });
 
-    return res.json({ ...payload });
+    return res.status(200).json({ ...payload });
   });
 };
