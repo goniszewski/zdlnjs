@@ -6,7 +6,7 @@ module.exports = {
     PORT: process.env.SERVER_PORT || 5000,
   },
   token: {
-    ACCESS_TOKEN_SECRET: process.env.ACCESS_TOKEN_SECRET || "s65r87g6s2e",
+    ACCESS_TOKEN_SECRET: process.env.ACCESS_TOKEN_SECRET || "testTest",
     EXPIRES_IN: process.env.ACCESS_TOKEN_EXPIRES_IN || "5m",
   },
   responses: {
