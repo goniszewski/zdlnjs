@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node ./src/index.js",
-    "test": "jest --coverage --passWithNoTests --config=jest-config.js"
+    "test": "jest --coverage --passWithNoTests"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",

@@ -33,5 +33,5 @@ module.exports = ({ env, getFile }) => {
     return { base64EncryptedFile: base64File, base64EncryptedKey: base64Key };
   };
 
-  return { getAndEncode };
+  return { encodeAes, encode, getAndEncode };
 };
